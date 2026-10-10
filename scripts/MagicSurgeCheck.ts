@@ -10,7 +10,7 @@ import CallHooks from "./utils/CallHooks";
 import SurgeDetails from "./utils/SurgeDetails";
 import Logger from "./Logger";
 import TriggerMacro from "./TriggerMacro";
-import { UsageConfig } from "foundry-extensions";
+import type { UsageConfig } from "foundry-extensions";
 import SpellParser from "./utils/SpellParser";
 
 /**

@@ -8,7 +8,7 @@ import { RoundData } from "@league-of-foundry-developers/foundry-vtt-types/src/f
 import Logger from "./Logger";
 import RollTableMagicSurge from "./RollTableMagicSurge";
 import DieDescending from "./utils/DieDescending";
-import { UsageConfig } from "foundry-extensions";
+import type { UsageConfig } from "foundry-extensions";
 
 Hooks.on("init", function () {
   Logger.log(`Registering ${WMSCONST.MODULE_NAME} Settings.`, "module.init");

@@ -1,4 +1,4 @@
-import { UsageConfig } from "foundry-extensions";
+import type { UsageConfig } from "foundry-extensions";
 import { WMSCONST } from "../WMSCONST";
 
 export default class SpellParser {
